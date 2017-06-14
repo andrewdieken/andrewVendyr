@@ -15,6 +15,8 @@
 		063BC8221EF1EA8100729E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063BC8201EF1EA8100729E71 /* LaunchScreen.storyboard */; };
 		063BC82D1EF1EA8100729E71 /* VendyrIOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063BC82C1EF1EA8100729E71 /* VendyrIOSAppTests.swift */; };
 		063BC8381EF1EA8100729E71 /* VendyrIOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063BC8371EF1EA8100729E71 /* VendyrIOSAppUITests.swift */; };
+		75596B8D1EF1F3EE0050D7A4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75596B8B1EF1F3EE0050D7A4 /* CustomTabBar.swift */; };
+		75596B8E1EF1F3EE0050D7A4 /* CustomTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75596B8C1EF1F3EE0050D7A4 /* CustomTabBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		063BC8331EF1EA8100729E71 /* VendyrIOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendyrIOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		063BC8371EF1EA8100729E71 /* VendyrIOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendyrIOSAppUITests.swift; sourceTree = "<group>"; };
 		063BC8391EF1EA8100729E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75596B8B1EF1F3EE0050D7A4 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		75596B8C1EF1F3EE0050D7A4 /* CustomTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTabBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				063BC8171EF1EA8100729E71 /* FirstViewController.swift */,
 				063BC8191EF1EA8100729E71 /* SecondViewController.swift */,
 				063BC81B1EF1EA8100729E71 /* Main.storyboard */,
+				75596B8B1EF1F3EE0050D7A4 /* CustomTabBar.swift */,
+				75596B8C1EF1F3EE0050D7A4 /* CustomTabBar.xib */,
 				063BC81E1EF1EA8100729E71 /* Assets.xcassets */,
 				063BC8201EF1EA8100729E71 /* LaunchScreen.storyboard */,
 				063BC8231EF1EA8100729E71 /* Info.plist */,
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75596B8E1EF1F3EE0050D7A4 /* CustomTabBar.xib in Resources */,
 				063BC8221EF1EA8100729E71 /* LaunchScreen.storyboard in Resources */,
 				063BC81F1EF1EA8100729E71 /* Assets.xcassets in Resources */,
 				063BC81D1EF1EA8100729E71 /* Main.storyboard in Resources */,
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75596B8D1EF1F3EE0050D7A4 /* CustomTabBar.swift in Sources */,
 				063BC81A1EF1EA8100729E71 /* SecondViewController.swift in Sources */,
 				063BC8161EF1EA8100729E71 /* AppDelegate.swift in Sources */,
 				063BC8181EF1EA8100729E71 /* FirstViewController.swift in Sources */,
@@ -511,6 +519,7 @@
 				063BC83E1EF1EA8100729E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		063BC83F1EF1EA8100729E71 /* Build configuration list for PBXNativeTarget "VendyrIOSAppTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				063BC8411EF1EA8100729E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		063BC8421EF1EA8100729E71 /* Build configuration list for PBXNativeTarget "VendyrIOSAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				063BC8441EF1EA8100729E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

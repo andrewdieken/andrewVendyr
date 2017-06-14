@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="jobCell" rowHeight="72" id="KGk-i7-Jjw" customClass="JobsTableViewCell" customModule="Vendyr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="453" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="453" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3X9-Cp-Uv2">
+                        <rect key="frame" x="140" y="43" width="61.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob6-5o-fdO">
+                        <rect key="frame" x="17" y="22.5" width="49" height="26.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 4" translatesAutoresizingMaskIntoConstraints="NO" id="THF-Sz-7u2">
+                        <rect key="frame" x="120" y="4" width="1" height="63.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of Event" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OE3-C9-Iag">
+                        <rect key="frame" x="140" y="12" width="125" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="THF-Sz-7u2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="112" id="6OK-c9-yjy"/>
+                    <constraint firstItem="THF-Sz-7u2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="Jnx-8J-CLb"/>
+                    <constraint firstItem="Ob6-5o-fdO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="RdC-6l-hh3"/>
+                    <constraint firstItem="Ob6-5o-fdO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="9" id="UPD-fD-3vs"/>
+                    <constraint firstItem="3X9-Cp-Uv2" firstAttribute="top" secondItem="OE3-C9-Iag" secondAttribute="bottom" constant="8" id="dzB-or-7eD"/>
+                    <constraint firstAttribute="bottom" secondItem="THF-Sz-7u2" secondAttribute="bottom" constant="4" id="e5d-iY-gRy"/>
+                    <constraint firstItem="OE3-C9-Iag" firstAttribute="leading" secondItem="THF-Sz-7u2" secondAttribute="trailing" constant="19" id="fjO-6h-89l"/>
+                    <constraint firstItem="3X9-Cp-Uv2" firstAttribute="leading" secondItem="OE3-C9-Iag" secondAttribute="leading" id="gTo-3u-Dbk"/>
+                    <constraint firstItem="OE3-C9-Iag" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="pBs-Fu-9iq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="0.86525611390000001" blue="0.86486755140000005" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="cell" destination="H2p-sc-9uM" id="8kb-Eg-3gK"/>
+                <outlet property="eventNameLabel" destination="OE3-C9-Iag" id="c46-zV-kDF"/>
+                <outlet property="jobNameLabel" destination="3X9-Cp-Uv2" id="WsP-n8-KAv"/>
+                <outlet property="timeLabel" destination="Ob6-5o-fdO" id="ehd-qQ-lmd"/>
+            </connections>
+            <point key="canvasLocation" x="-96.5" y="-82"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Rectangle 4" width="1" height="50"/>
+    </resources>
+</document>
