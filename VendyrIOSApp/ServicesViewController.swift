@@ -30,6 +30,8 @@ class ServicesViewController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = Bundle.main.loadNibNamed("ServiceTableViewCell", owner: self, options: nil)?.first as! ServiceTableViewCell
+        
+        
         cell.serviceNameLabel.text = serviceArray[indexPath.row]
         
         return cell

@@ -17,6 +17,27 @@
 		063BC8381EF1EA8100729E71 /* VendyrIOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063BC8371EF1EA8100729E71 /* VendyrIOSAppUITests.swift */; };
 		75596B8D1EF1F3EE0050D7A4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75596B8B1EF1F3EE0050D7A4 /* CustomTabBar.swift */; };
 		75596B8E1EF1F3EE0050D7A4 /* CustomTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75596B8C1EF1F3EE0050D7A4 /* CustomTabBar.xib */; };
+		75EA76081EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75EA75F71EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.xib */; };
+		75EA76091EF1F66F00DDF7F9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA75F81EF1F66F00DDF7F9 /* TabBarViewController.swift */; };
+		75EA760A1EF1F66F00DDF7F9 /* JobsHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75EA75F91EF1F66F00DDF7F9 /* JobsHeaderCell.xib */; };
+		75EA760B1EF1F66F00DDF7F9 /* JobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA75FA1EF1F66F00DDF7F9 /* JobsTableViewCell.swift */; };
+		75EA760C1EF1F66F00DDF7F9 /* JobsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75EA75FB1EF1F66F00DDF7F9 /* JobsTableViewCell.xib */; };
+		75EA760D1EF1F66F00DDF7F9 /* ServiceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA75FC1EF1F66F00DDF7F9 /* ServiceDetailViewController.swift */; };
+		75EA760E1EF1F66F00DDF7F9 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA75FD1EF1F66F00DDF7F9 /* ServicesViewController.swift */; };
+		75EA760F1EF1F66F00DDF7F9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA75FE1EF1F66F00DDF7F9 /* SignInViewController.swift */; };
+		75EA76101EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA75FF1EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.swift */; };
+		75EA76111EF1F66F00DDF7F9 /* AddJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA76001EF1F66F00DDF7F9 /* AddJobViewController.swift */; };
+		75EA76121EF1F66F00DDF7F9 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA76011EF1F66F00DDF7F9 /* CalendarViewController.swift */; };
+		75EA76131EF1F66F00DDF7F9 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA76021EF1F66F00DDF7F9 /* CustomTabBarController.swift */; };
+		75EA76141EF1F66F00DDF7F9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA76031EF1F66F00DDF7F9 /* Data.swift */; };
+		75EA76151EF1F66F00DDF7F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA76041EF1F66F00DDF7F9 /* HomeViewController.swift */; };
+		75EA76161EF1F66F00DDF7F9 /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA76051EF1F66F00DDF7F9 /* Jobs.swift */; };
+		75EA76171EF1F66F00DDF7F9 /* JobsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA76061EF1F66F00DDF7F9 /* JobsHeaderCell.swift */; };
+		75EA76181EF1F66F00DDF7F9 /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA76071EF1F66F00DDF7F9 /* JobsViewController.swift */; };
+		75EA761B1EF1F6F300DDF7F9 /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA76191EF1F6F300DDF7F9 /* ServiceTableViewCell.swift */; };
+		75EA761C1EF1F6F300DDF7F9 /* ServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75EA761A1EF1F6F300DDF7F9 /* ServiceTableViewCell.xib */; };
+		75EA76271EF1FDB700DDF7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EA76241EF1FDB700DDF7F9 /* LaunchScreen.storyboard */; };
+		75EA76281EF1FDB700DDF7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EA76251EF1FDB700DDF7F9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +74,27 @@
 		063BC8391EF1EA8100729E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75596B8B1EF1F3EE0050D7A4 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		75596B8C1EF1F3EE0050D7A4 /* CustomTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTabBar.xib; sourceTree = "<group>"; };
+		75EA75F71EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpcomingJobsTableViewCell.xib; sourceTree = "<group>"; };
+		75EA75F81EF1F66F00DDF7F9 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		75EA75F91EF1F66F00DDF7F9 /* JobsHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobsHeaderCell.xib; sourceTree = "<group>"; };
+		75EA75FA1EF1F66F00DDF7F9 /* JobsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewCell.swift; sourceTree = "<group>"; };
+		75EA75FB1EF1F66F00DDF7F9 /* JobsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobsTableViewCell.xib; sourceTree = "<group>"; };
+		75EA75FC1EF1F66F00DDF7F9 /* ServiceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDetailViewController.swift; sourceTree = "<group>"; };
+		75EA75FD1EF1F66F00DDF7F9 /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		75EA75FE1EF1F66F00DDF7F9 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		75EA75FF1EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingJobsTableViewCell.swift; sourceTree = "<group>"; };
+		75EA76001EF1F66F00DDF7F9 /* AddJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddJobViewController.swift; sourceTree = "<group>"; };
+		75EA76011EF1F66F00DDF7F9 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		75EA76021EF1F66F00DDF7F9 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		75EA76031EF1F66F00DDF7F9 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		75EA76041EF1F66F00DDF7F9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		75EA76051EF1F66F00DDF7F9 /* Jobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
+		75EA76061EF1F66F00DDF7F9 /* JobsHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsHeaderCell.swift; sourceTree = "<group>"; };
+		75EA76071EF1F66F00DDF7F9 /* JobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
+		75EA76191EF1F6F300DDF7F9 /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		75EA761A1EF1F6F300DDF7F9 /* ServiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceTableViewCell.xib; sourceTree = "<group>"; };
+		75EA76241EF1FDB700DDF7F9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75EA76251EF1FDB700DDF7F9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +148,27 @@
 				063BC8151EF1EA8100729E71 /* AppDelegate.swift */,
 				063BC8171EF1EA8100729E71 /* FirstViewController.swift */,
 				063BC8191EF1EA8100729E71 /* SecondViewController.swift */,
+				75EA75F71EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.xib */,
+				75EA75F81EF1F66F00DDF7F9 /* TabBarViewController.swift */,
+				75EA75F91EF1F66F00DDF7F9 /* JobsHeaderCell.xib */,
+				75EA75FA1EF1F66F00DDF7F9 /* JobsTableViewCell.swift */,
+				75EA75FB1EF1F66F00DDF7F9 /* JobsTableViewCell.xib */,
+				75EA75FC1EF1F66F00DDF7F9 /* ServiceDetailViewController.swift */,
+				75EA76241EF1FDB700DDF7F9 /* LaunchScreen.storyboard */,
+				75EA76251EF1FDB700DDF7F9 /* Main.storyboard */,
+				75EA76191EF1F6F300DDF7F9 /* ServiceTableViewCell.swift */,
+				75EA761A1EF1F6F300DDF7F9 /* ServiceTableViewCell.xib */,
+				75EA75FD1EF1F66F00DDF7F9 /* ServicesViewController.swift */,
+				75EA75FE1EF1F66F00DDF7F9 /* SignInViewController.swift */,
+				75EA75FF1EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.swift */,
+				75EA76001EF1F66F00DDF7F9 /* AddJobViewController.swift */,
+				75EA76011EF1F66F00DDF7F9 /* CalendarViewController.swift */,
+				75EA76021EF1F66F00DDF7F9 /* CustomTabBarController.swift */,
+				75EA76031EF1F66F00DDF7F9 /* Data.swift */,
+				75EA76041EF1F66F00DDF7F9 /* HomeViewController.swift */,
+				75EA76051EF1F66F00DDF7F9 /* Jobs.swift */,
+				75EA76061EF1F66F00DDF7F9 /* JobsHeaderCell.swift */,
+				75EA76071EF1F66F00DDF7F9 /* JobsViewController.swift */,
 				063BC81B1EF1EA8100729E71 /* Main.storyboard */,
 				75596B8B1EF1F3EE0050D7A4 /* CustomTabBar.swift */,
 				75596B8C1EF1F3EE0050D7A4 /* CustomTabBar.xib */,
@@ -241,8 +304,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA760C1EF1F66F00DDF7F9 /* JobsTableViewCell.xib in Resources */,
 				75596B8E1EF1F3EE0050D7A4 /* CustomTabBar.xib in Resources */,
+				75EA76081EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.xib in Resources */,
+				75EA76271EF1FDB700DDF7F9 /* LaunchScreen.storyboard in Resources */,
+				75EA760A1EF1F66F00DDF7F9 /* JobsHeaderCell.xib in Resources */,
+				75EA76281EF1FDB700DDF7F9 /* Main.storyboard in Resources */,
 				063BC8221EF1EA8100729E71 /* LaunchScreen.storyboard in Resources */,
+				75EA761C1EF1F6F300DDF7F9 /* ServiceTableViewCell.xib in Resources */,
 				063BC81F1EF1EA8100729E71 /* Assets.xcassets in Resources */,
 				063BC81D1EF1EA8100729E71 /* Main.storyboard in Resources */,
 			);
@@ -269,10 +338,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA76121EF1F66F00DDF7F9 /* CalendarViewController.swift in Sources */,
 				75596B8D1EF1F3EE0050D7A4 /* CustomTabBar.swift in Sources */,
 				063BC81A1EF1EA8100729E71 /* SecondViewController.swift in Sources */,
+				75EA76161EF1F66F00DDF7F9 /* Jobs.swift in Sources */,
+				75EA761B1EF1F6F300DDF7F9 /* ServiceTableViewCell.swift in Sources */,
+				75EA760E1EF1F66F00DDF7F9 /* ServicesViewController.swift in Sources */,
 				063BC8161EF1EA8100729E71 /* AppDelegate.swift in Sources */,
+				75EA76151EF1F66F00DDF7F9 /* HomeViewController.swift in Sources */,
+				75EA760B1EF1F66F00DDF7F9 /* JobsTableViewCell.swift in Sources */,
+				75EA760F1EF1F66F00DDF7F9 /* SignInViewController.swift in Sources */,
+				75EA76141EF1F66F00DDF7F9 /* Data.swift in Sources */,
+				75EA76171EF1F66F00DDF7F9 /* JobsHeaderCell.swift in Sources */,
+				75EA76091EF1F66F00DDF7F9 /* TabBarViewController.swift in Sources */,
+				75EA76101EF1F66F00DDF7F9 /* UpcomingJobsTableViewCell.swift in Sources */,
 				063BC8181EF1EA8100729E71 /* FirstViewController.swift in Sources */,
+				75EA76181EF1F66F00DDF7F9 /* JobsViewController.swift in Sources */,
+				75EA76131EF1F66F00DDF7F9 /* CustomTabBarController.swift in Sources */,
+				75EA760D1EF1F66F00DDF7F9 /* ServiceDetailViewController.swift in Sources */,
+				75EA76111EF1F66F00DDF7F9 /* AddJobViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,12 +25,6 @@ class JobsViewController: UIViewController, UITableViewDelegate, UITableViewData
         self.jobsTableView.delegate = self
         self.jobsTableView.dataSource = self
         
-       // jobsTableView.backgroundView = Clear
-        
-        
-       // self.jobsTableView.backgroundView = backgroundView
-        
-        
         
         var eventBackground : UIImage = UIImage(named: "eventBackground.png")!
         let bounds : UIEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0)
